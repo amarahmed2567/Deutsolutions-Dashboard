@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.container{
+ max-width: 1200px;
+ margin: 0 auto;
+}
+.header-text{
+    /* display: inline;
+    background: linear-gradient(63.61deg, #F9B434 14.16%, #E90004 86.73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; */
+    margin-bottom: 1rem;
+
+}
+
+.table-users{
+   border:none;
+   margin: 2rem auto 0 auto ;
+   min-width: 1200px;
+}
+thead{
+    background-color: #353535;
+    color: #fff;
+}
+tbody{
+    background-color: #f0f0f0;
+    padding: 0 1rem;
+}
